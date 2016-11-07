@@ -1,4 +1,4 @@
-# Packager: This package allows to classes invoke static style, using pseudo facade classes.
+# Packager: This package allows calling classes in static style, through the use of facade classes.
 
 ## Installation
 
@@ -30,7 +30,7 @@ Consider the following folder structure:
                 TextProcessing.php
                 Request.php
 
-In the services.php file, returns an array with an alias and the corresponding namespace and the following sintax: 
+The services.php file, returns an array with an alias and the corresponding namespace and the following sintax: 
     
     <?php 
 
@@ -46,7 +46,7 @@ In the services.php file, returns an array with an alias and the corresponding n
 
     ];
 
-In the MainClass.php, invoke to **AliasLoader::setAliases** method:
+In the MainClass.php file, invoke to **AliasLoader::setAliases** method:
     
     <?php
 
