@@ -3,15 +3,13 @@
     "description": "Facade pseudo classes for dependencies",
     "type": "library",
     "version": "0.1",
-    "license": "GLP-3.0",
+    "license": "MIT",
     "keywords": ["facades", "dependencies", "services"],
-    "authors": [
-        {
-            "name": "Omar A. Barbosa",
-            "email": "contacto@omarbarbosa.com",
-            "homepage": "http://omarbarbosa.com/"
-        }
-    ],
+    "authors": [{
+        "name": "Omar A. Barbosa",
+        "email": "contacto@omarbarbosa.com",
+        "homepage": "http://omarbarbosa.com/"
+    }],
     "require": {
         "php": ">=5.4"
     },
